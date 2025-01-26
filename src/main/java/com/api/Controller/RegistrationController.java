@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v2/registration1") // base Api url exchange the data between 2 apps
+@RequestMapping("/api/v2/registration1/") // base Api url exchange the data between 2 apps
 // http://localhost:8080/api/v2/registration1
 public class RegistrationController {
    private RegistrationService registrationService;
